@@ -47,26 +47,28 @@ See https://github.com/paypal/PayPal-Cordova-Plugin
 # Examples #
 See https://github.com/paypal/PayPal-Cordova-Plugin
 # Test #
+```c
 //Create test account for sandbox
 Dashboard - Sandbox - Accounts - Create Account - Account type: Personal (buyer account) - ... - Create Account
 
 Test with test account
+```
 # Useful links #
 
-Test REST API transactions
-Test PayPal payments
-Test credit card payments
+Test REST API transactions<br>
+Test PayPal payments<br>
+Test credit card payments<br>
 https://developer.paypal.com/docs/integration/direct/test-the-api/
 
-Credentials (client id)
-https://github.com/paypal/PayPal-Android-SDK#credentials
+Credentials (client id)<br>
+https://github.com/paypal/PayPal-Android-SDK#credentials<br>
 https://github.com/paypal/PayPal-iOS-SDK#credentials
 
-Phonegap related c2 plugins (+Crosswalk)
+Phonegap related c2 plugins (+Crosswalk)<br>
 https://www.scirra.com/forum/viewtopic.php?t=109586
 
-Games/Apps made with phonegap related c2 plugins (+Crosswalk)
+Games/Apps made with phonegap related c2 plugins (+Crosswalk)<br>
 https://www.scirra.com/forum/viewtopic.php?t=115517
 
-Construct 2: an easy html5 games/apps maker
+Construct 2: an easy html5 games/apps maker<br>
 https://www.scirra.com/
