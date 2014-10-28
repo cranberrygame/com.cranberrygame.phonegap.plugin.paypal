@@ -4,7 +4,7 @@
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.cranberrygame.phonegap.plugin.paypal"
-    version="1.0.2">
+    version="1.0.3">
 	
     <name>Paypal</name>
     <description>Paypal phonegap plugin version</description>
@@ -96,13 +96,21 @@
 		<header-file src="src/ios/PayPalMobile/PayPalPayment.h" />
 		<header-file src="src/ios/PayPalMobile/PayPalPaymentViewController.h" />
 		<header-file src="src/ios/PayPalMobile/PayPalProfileSharingViewController.h" />
-		<source-file src="src/ios/libPayPalMobile.a" framework="true" />
+		<source-file src="src/ios/PayPalMobile/libPayPalMobile.a" framework="true" />
 		
         <framework src="AudioToolbox.framework" />
         <framework src="AVFoundation.framework" />
         <framework src="SystemConfiguration.framework" />
         <framework src="MessageUI.framework" />
         <framework src="libc++.dylib" />
-        <framework src="CoreLocation.framework" weak="true" />        
+        <framework src="CoreLocation.framework" weak="true" /> 
+
+        <framework src="CoreMedia.framework" />
+        <framework src="MobileCoreServices.framework" />
+
+        <framework src="Security.framework" />
+        <framework src="OpenGLES.framework" />
+        <framework src="QuartzCore.framework" />
+        <framework src="CoreGraphics.framework" />
     </platform>	
 </plugin>
