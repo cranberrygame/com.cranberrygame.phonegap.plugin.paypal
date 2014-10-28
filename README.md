@@ -5,7 +5,7 @@ paypal payment
 
 requires paypal developer account https://developer.paypal.com/
 
-ios is not yet tested.
+ios is not yet tested (if you test and let me know, I will appreciate).
 
 this repository was forked from https://github.com/paypal/PayPal-Cordova-Plugin and edited for phonegap plugin support
 # Install phonegap plugin #
