@@ -4,7 +4,7 @@
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-payment-paypal"
-    version="1.0.23">
+    version="1.0.24">
 	
     <name>Paypal</name>
     <description>Paypal cordova plugin version</description>
